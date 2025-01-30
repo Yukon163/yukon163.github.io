@@ -113,7 +113,7 @@ delete(3)
 
 关键就在于使用off-by-one或者uaf，将fastbin的大小换成unsortedbin的，然后重新free一次
 
-![image-20250125184607790](D:\ctf\web\hugo\blog\content\posts\images\image-20250125184607790.png)
+![image-20250125184607790](.\images\image-20250125184607790.png)
 
 找到可以作为size的地址`0x7efd01c1b73d`，然后将其低两位写入一个unsortedbin中的main_arena&#43;96指针中
 
@@ -147,5 +147,5 @@ pwndbg&gt; tele 0x56206343b2b0
 ---
 
 > 作者:   
-> URL: http://localhost:1313/posts/814a8c6/  
+> URL: https://example.org/posts/814a8c6/  
 
