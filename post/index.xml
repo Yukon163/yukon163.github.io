@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>所有post - My New Hugo Site</title>
+    <link>http://localhost:1313/post/</link>
+    <description>My New Hugo Site</description>
+    <generator>Hugo 0.142.0 &amp; FixIt v0.3.17-8b402129</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Jan 2025 14:36:26 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/post/test/</link>
+      <pubDate>Thu, 30 Jan 2025 14:36:26 +0800</pubDate>
+      <guid>http://localhost:1313/post/test/</guid>
+      <description>&lt;p&gt;some content.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
